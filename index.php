@@ -14,7 +14,6 @@
     ;extension=sqlite3
     
     Если взяли чистый php, то вероятно php.ini может отсутствовать. Тогда в папке берем файл php.ini-production (который находится в той же директории, что и php.exe), в нем проводим вышеописанные манипуляции и переименовываем в php.ini
-
 */
 
 const DB_CONNECT = "sqlite:main.sqlite";
